@@ -8,9 +8,9 @@ export const site = {
   name: "Duo Socks n Sweaters",
   shortName: "Duo",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://duosocksnsweaters.com",
-  tagline: "One partner. 50+ factories. Every order inspected before it ships.",
+  tagline: "One partner. 7 factories. Every order inspected before it ships.",
   description:
-    "Sourcing and export partner for socks and sweaters, based in Tirupur, India. We match your order to the right factory in a network of 50+, run independent QC and handle export.",
+    "Sourcing and export partner for socks and sweaters, based in Tirupur, India. We match your order to the right factory in a network of 7, run independent QC and handle export.",
   email: "suba@duosocksnsweaters.com",
   whatsapp: {
     /** International format, digits only, for wa.me links. */
@@ -28,7 +28,7 @@ export const site = {
 export type Stat = { value: number; suffix: string; label: string; format?: "compact" };
 
 export const stats: Stat[] = [
-  { value: 50, suffix: "+", label: "Vetted partner factories" },
+  { value: 7, suffix: "", label: "Vetted partner factories" },
   { value: 500000, suffix: "+", label: "Pieces per month across the network" },
   { value: 15, suffix: "+", label: "Years in textile sourcing" },
   { value: 7, suffix: "+", label: "Regions shipped to" },

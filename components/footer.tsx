@@ -12,7 +12,7 @@ export function Footer() {
           <div className="lg:col-span-5">
             <p className="eyebrow">Start a conversation</p>
             <p className="mt-6 max-w-md font-display text-[clamp(2rem,1.5rem+2vw,3.2rem)] leading-[1.05]">
-              One partner. 50+ factories. <em className="text-accent-soft">Every order inspected.</em>
+              One partner. 7 factories. <em className="text-accent-soft">Every order inspected.</em>
             </p>
             <Link href="/request-a-quote/" className="group mt-8 inline-flex items-center gap-3 text-lg font-semibold">
               <span className="link-underline">Request a quote</span>

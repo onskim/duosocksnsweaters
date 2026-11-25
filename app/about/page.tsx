@@ -14,7 +14,7 @@ const image = { src: "/images/atmos-tirupur-01.jpg", alt: "Rows of coloured yarn
 export const metadata: Metadata = pageMetadata({
   title: "About Us | Sock and Sweater Sourcing Partner, Tirupur",
   description:
-    "Duo Socks n Sweaters is a sourcing and export partner in Tirupur, India, with 15+ years in textiles and a network of 50+ vetted partner factories.",
+    "Duo Socks n Sweaters is a sourcing and export partner in Tirupur, India, with 15+ years in textiles and a network of 7 vetted partner factories.",
   path: "/about/",
   keywords: ["sourcing agent Tirupur", "sock sourcing company India", "textile sourcing partner India"],
   image: imageFile(image.src),
@@ -67,7 +67,7 @@ export default function AboutPage() {
           </div>
           <div className="lg:col-span-6 lg:col-start-7">
             <p className="eyebrow">The factory network</p>
-            <h2 id="network" className="mt-5 text-h1">50+ vetted <em className="text-accent-soft">partner factories.</em></h2>
+            <h2 id="network" className="mt-5 text-h1">7 vetted <em className="text-accent-soft">partner factories.</em></h2>
             <p className="mt-6 max-w-xl text-lead text-paper/85">
               Every factory in the network is vetted by our team before it receives an order. Together they give buyers capacity of 500,000+ pieces a month, across every sock category and a range of sweater styles.
             </p>

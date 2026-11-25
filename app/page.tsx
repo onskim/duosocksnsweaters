@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ...pageMetadata({
     title: "Private Label Socks Supplier India | Duo Socks n Sweaters",
     description:
-      "Sock and sweater sourcing partner in Tirupur, India. 50+ vetted partner factories, independent QC and export handled. Private label for brands, retailers and wholesalers.",
+      "Sock and sweater sourcing partner in Tirupur, India. 7 vetted partner factories, independent QC and export handled. Private label for brands, retailers and wholesalers.",
     path: "/",
     keywords: ["private label socks supplier India", "socks sourcing agent Tirupur", "sock supplier for brands", "sweater sourcing India"],
     image: imageFile(heroImage.src),
@@ -47,7 +47,7 @@ export default function HomePage() {
       <PhotoHero
         image={heroImage}
         eyebrow={`Sourcing and export partner · ${site.location.city}, India`}
-        lines={["One partner.", <em key="f" className="text-accent-soft">50+ factories.</em>, "Every order inspected."]}
+        lines={["One partner.", <em key="f" className="text-accent-soft">7 factories.</em>, "Every order inspected."]}
         lead="We source socks and sweaters from vetted factories in Tirupur and manage your order from first sample to export shipment."
       >
         <QuoteButton />
@@ -69,7 +69,7 @@ export default function HomePage() {
           <div className="lg:col-span-9">
             <Statement
               className="font-display text-statement"
-              text="We are a sourcing and export partner, not a factory. We manage a network of 50+ vetted partner factories, place each product with the one that makes it best, and inspect every order ourselves before it ships."
+              text="We are a sourcing and export partner, not a factory. We manage a network of 7 vetted partner factories, place each product with the one that makes it best, and inspect every order ourselves before it ships."
             />
             <Link href="/about/" className="group mt-10 inline-flex items-center gap-3 font-semibold">
               <span className="link-underline">How our model works</span>

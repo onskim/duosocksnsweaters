@@ -8,7 +8,7 @@ const image = { src: "/images/socks-stack-hero.jpg", alt: "Stack of ribbed socks
 export const metadata: Metadata = pageMetadata({
   title: "Socks Sourcing India | All Sock Categories, Private Label",
   description:
-    "Ankle, terry, anti-skid, compression, diabetic, crew, no-show, sports, dress, kids' and wool socks, sourced from 50+ vetted factories in Tirupur with independent QC.",
+    "Ankle, terry, anti-skid, compression, diabetic, crew, no-show, sports, dress, kids' and wool socks, sourced from 7 vetted factories in Tirupur with independent QC.",
   path: "/socks/",
   keywords: ["private label socks supplier India", "socks wholesale India", "sock sourcing Tirupur"],
   image: imageFile(image.src),
